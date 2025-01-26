@@ -56,3 +56,40 @@ body{
     height: 28px;
     width: 28px;
 }
+
+@media (max-width: 375px){
+    .container{
+        max-width: 90%;
+        padding: 15px;
+        margin: 0 10px;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+
+    .container p{
+        font-size: 14px;
+    }
+    .banner img{
+        height: 150px;
+        width: 100%;
+    }
+}
+
+@media (mix-width: 1440px){
+    .container{
+        max-width: 500px;
+        padding: 30px;
+    }
+    .container h2{
+        font-size: 28px;
+    }
+    .container p{
+        font-size: 18px;
+    }
+    .banner img{
+        height: 300px;
+        width: 100%;
+    }
+}
+
